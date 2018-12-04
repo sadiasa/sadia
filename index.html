@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<head>
+		<title>Login Page</title>
+	<style>
+
+		body{
+			color:black;
+		background-color:lightgray;	
+		border: 20px;
+		padding: 5px;
+		}
+		
+		h1{
+			font-size:50px;
+			font-weight:bold;
+			font-family:gadugi;
+			color:#043443;
+		}
+		h2{
+			font-size:30px;
+			font-weight:bold;
+			font-family:gadugi;
+			color:green;
+		}
+
+		.button{
+			background-color:#336699;
+			font-size:20px;
+			font-family:gadugi;
+			color:black;
+			border-radius:5px;
+			padding:5px 10px;
+			width:255px;
+			cursor:pointer;
+			border:0px;
+		}
+		
+		.button:hover{
+			color:white;
+			background-color:green;
+		}
+		
+		
+		.textbox{
+			font-size:20px;
+			background-color:white;
+			padding:8px;
+			border-radius:5px;
+			color:black;
+			border:0px;
+			
+		}
+		
+		
+		
+		#image{
+			width:200px;
+			height:150px;
+			border-radius:10px;
+		}
+		
+		p{
+			font-family:gadugi;
+			font-size:15px;
+			font-weight:bold;
+		}
+		
+		#Registration{
+          font-family:gadugi;
+			font-size:20px;
+			font-weight:bold;
+		}
+		
+	</style>
+</head>
+<body>
+	<center>
+		<img id="image" src="logo.jpg"></img> 
+		
+		<h1>Sign In To People Care hospital </h1>
+		<h2>Patient Registration or Login</h2>
+		<input class="textbox" type="text" id="Username"placeholder="Username"><br><br>
+		<input class="textbox" type="password" id="Password "placeholder="Password"><br><br>
+		<input class="button" type="button" value="Sign in" onClick="click">
+		<p>Forget your <a href="#">Username</a>? or <a href="#"> Password </a>?</p>
+		<p>Don't have account?</p>
+		<a id="Registration" href="p.reg.html">Registration Now</a>
+
+		
+	</center>
+</body>
+</html>
